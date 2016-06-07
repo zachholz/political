@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Political Quiz!</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS Styling -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.2.4.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>Find out your political affiliation!</h1>
+
+      <!-- Question 1 -->
+      <form>
+        <div class="radio">
+          <h5>A free market economy is the best.</h5>
+          <label>
+            <input type="radio" name="question1" id="optionsRadios1" value="agree" checked>
+            Agree
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question1" id="optionsRadios2" value="disagree">
+            Disagree
+          </label>
+        </div>
+        <!-- <div class="radio disabled">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+            Option three is disabled
+          </label>
+        </div> -->
+        <!-- Question Two -->
+        <div class="radio">
+          <h5>Less government regulation, the better!</h5>
+          <label>
+            <input type="radio" name="question2" id="optionsRadios1" value="agree" checked>
+            Agree
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" id="optionsRadios2" value="disagree">
+            Disagree
+          </label>
+        </div>
+        <!-- <div class="radio disabled">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+            Option three is disabled
+          </label>
+        </div> -->
+        <!-- Question three -->
+        <div class="radio">
+          <h5>Flag burning should be banned!</h5>
+          <label>
+            <input type="radio" name="question3" id="optionsRadios1" value="agree" checked>
+            Agree
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question3" id="optionsRadios2" value="disagree">
+            Disagree
+          </label>
+        </div>
+        <!-- <div class="radio disabled">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+            Option three is disabled
+          </label>
+        </div> -->
+        <!-- Question four -->
+        <div class="radio">
+          <h5>Abortion should be illegal!</h5>
+          <label>
+            <input type="radio" name="question4" id="optionsRadios1" value="agree" checked>
+            Agree
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question4" id="optionsRadios2" value="disagree">
+            Disagree
+          </label>
+        </div>
+        <!-- <div class="radio disabled">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+            Option three is disabled
+          </label>
+        </div> -->
+        <!-- Question five -->
+        <div class="radio">
+          <h5>Guns should remain deregulated.</h5>
+          <label>
+            <input type="radio" name="question5" id="optionsRadios1" value="agree" checked>
+            Agree
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question5" id="optionsRadios2" value="disagree">
+            Disagree
+          </label>
+        </div>
+        <!-- <div class="radio disabled">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+            Option three is disabled
+          </label>
+        </div> -->
+        <input class="btn btn-Primary" type="submit" value="Submit">
+      </form>
+      <div id="gop">
+        Sorry, you're a republican.
+        <img src="http://cliparts.co/cliparts/ziX/o7p/ziXo7p4AT.jpg" alt="GOP" />
+      </div>
+      <div id="dem">
+        Sorry, you're a democrat.
+        <img src="https://upload.wikimedia.org/wikipedia/en/e/e3/DemocraticLogo.png" alt="Democrat" />
+      </div>
+    </div>
+  </body>
+</html>
